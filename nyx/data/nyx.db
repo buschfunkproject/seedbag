@@ -31,3 +31,10 @@ $42
 /jack/localhost:9002/board/News/board-data
 $46
 {"short":"News","long":"Alles Neue","meta":{}}
+*3
+$3
+set
+$37
+/jack/localhost/board/News/board-data
+$48
+{"short":"News","long":"General News","meta":{}}

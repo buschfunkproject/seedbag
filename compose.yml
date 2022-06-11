@@ -32,7 +32,8 @@ services:
       - CMD_CSP_ENABLE=false
       - CMD_ALLOW_ORIGIN=*
       - NODE_ENV=production
-      #- CMD_URL_PATH=md
+      - CMD_URL_PATH=md
+      - CMD_URL_ADDPORT=false
   etherpad:
     container_name: etherpad
     restart: always
