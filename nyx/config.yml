@@ -1,0 +1,12 @@
+site:
+    title: "DorfChan"
+    description: "DorfChan message board"
+
+db:
+    file: "/data/nyx.db"
+
+mastersecret: "changemeforreal"
+listen_on: ":9002"
+
+captcha:
+    mode: "internal"

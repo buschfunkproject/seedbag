@@ -1,0 +1,26 @@
+{"key":"sessionstorage:ZReRxHJre7aiTiASBUd8L8h-BntZcLny","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"sessionstorage:N9W0k2swb7BSOxlh8-HD64_A3pbtMkQI","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"sessionstorage:H1RABi0Dv9M3bbwxQ4U3tPao5NEEPG7V","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"sessionstorage:TGiY6buRLDHNvztVLivB3ImDisZNBRP5","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"sessionstorage:MXwI3nb7Kp5NYDvxDWOWEu0mUtzpX70I","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"sessionstorage:xJCcOc6_CuBS8sZhAAH_UYmDOdtA4AL9","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"sessionstorage:kzlUwvb0aQSxKJQ2N7r6ptbdZ-03yhoE","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"sessionstorage:NJCroRi_SG82sMISl-Pdww5MbxxgduOn","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"sessionstorage:E9Ubh9UmHFz7BPSQfZCxMizyF3UDLM5y","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"sessionstorage:mznAKGA7P20QsZK0IQhD3JCe20cGuhjA","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"sessionstorage:NclYtQQ_OJe8abO3Fnd26avrDWcYrwLD","val":{"cookie":{"originalMaxAge":null,"expires":null,"secure":false,"httpOnly":true,"path":"/","sameSite":"Lax"}}}
+{"key":"globalAuthor:a.7pzikYv7TBwLJRx9","val":{"colorId":61,"name":null,"timestamp":1654631121420}}
+{"key":"token2author:t.F3bLMRhRUzGYhqHMtVJ3","val":"a.7pzikYv7TBwLJRx9"}
+{"key":"pad2readonly:o_RyWy4tpR9wV4QMTd-R","val":"r.7f6d6efd6d6c425f8144044d86973984"}
+{"key":"readonly2pad:r.7f6d6efd6d6c425f8144044d86973984","val":"o_RyWy4tpR9wV4QMTd-R"}
+{"key":"pad:o_RyWy4tpR9wV4QMTd-R:revs:0","val":{"changeset":"Z:1>6b|5+6b$Welcome to Etherpad!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nGet involved with Etherpad at http://etherpad.org\n","meta":{"author":"","timestamp":1654631121425,"pool":{"numToAttrib":{},"attribToNum":{},"nextNum":0},"atext":{"text":"Welcome to Etherpad!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nGet involved with Etherpad at http://etherpad.org\n\n","attribs":"|6+6c"}}}}
+{"key":"pad:o_RyWy4tpR9wV4QMTd-R","val":{"atext":{"text":"Welcome to Etherpad!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nGet involved with Etherpad at http://etherpad.org\n\n","attribs":"|6+6c"},"pool":{"numToAttrib":{},"nextNum":0},"head":0,"chatHead":-1,"publicStatus":false,"savedRevisions":[]}}
+{"key":"globalAuthor:a.7pzikYv7TBwLJRx9","val":{"colorId":61,"name":null,"timestamp":1654631138341}}
+{"key":"globalAuthor:a.7pzikYv7TBwLJRx9","val":{"colorId":"#e9afc2","name":null,"timestamp":1654631138341}}
+{"key":"globalAuthor:a.7pzikYv7TBwLJRx9","val":{"colorId":"#e9afc2","name":"Lars","timestamp":1654631138341}}
+{"key":"globalAuthor:a.7pzikYv7TBwLJRx9","val":{"colorId":"#e9afc2","name":"Lars","timestamp":1654631141805}}
+{"key":"globalAuthor:a.7pzikYv7TBwLJRx9","val":{"colorId":"#e9afc2","name":"Lars","timestamp":1654631141805}}
+{"key":"globalAuthor:a.7pzikYv7TBwLJRx9","val":{"colorId":"#e9afc2","name":"Lars","timestamp":1654631141805}}
+{"key":"globalAuthor:a.7pzikYv7TBwLJRx9","val":{"colorId":"#e9afc2","name":"Lars","timestamp":1654631147723}}
+{"key":"pad:o_RyWy4tpR9wV4QMTd-R:chat:0","val":{"text":"hi","authorId":"a.7pzikYv7TBwLJRx9","time":1654631147727}}
+{"key":"pad:o_RyWy4tpR9wV4QMTd-R","val":{"atext":{"text":"Welcome to Etherpad!\n\nThis pad text is synchronized as you type, so that everyone viewing this page sees the same text. This allows you to collaborate seamlessly on documents!\n\nGet involved with Etherpad at http://etherpad.org\n\n","attribs":"|6+6c"},"pool":{"numToAttrib":{},"nextNum":0},"head":0,"chatHead":0,"publicStatus":false,"savedRevisions":[]}}

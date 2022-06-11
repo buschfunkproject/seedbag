@@ -1,0 +1,49 @@
+services:
+  frontend:
+    build: frontend
+    restart: always
+    ports:
+      - "8000:80"
+    depends_on:
+      - etherpad
+  nyx:
+    build: nyx
+    container_name: nyx
+    restart: always
+    ports:
+      - "9002:9002"
+    volumes:
+      - ./nyx/data:/data
+  hedgedoc:
+    build:
+      context: hedgedoc
+      args:
+        VERSION: 1.9.3
+    container_name: hedgedoc
+    restart: always
+    ports:
+      - "9003:3000"
+    #volumes: #- ./hedgedoc/data:/data
+    #volumes:
+    #  - hedgedoc/uploads:/hedgedoc/public/uploads
+    environment:
+      - CMD_DB_URL=sqlite://hedgedoc.sqlite.db
+      - CMD_PROTOCOL_USESSL=false
+      - CMD_CSP_ENABLE=false
+      - CMD_ALLOW_ORIGIN=*
+      - NODE_ENV=production
+      #- CMD_URL_PATH=md
+  etherpad:
+    container_name: etherpad
+    restart: always
+    #network_mode: "bridge"
+    volumes:
+      - ./etherpad/data/settings.json:/opt/etherpad/settings.json
+      #- ./data/node_modules:/opt/etherpad/node_modules
+      - ./etherpad/data/var:/opt/etherpad/var
+    build:
+      context: etherpad
+      args:
+        ETHERPAD_VER: 1.8.18
+    ports:
+      - "9001:9001"
