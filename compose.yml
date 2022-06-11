@@ -48,3 +48,9 @@ services:
         ETHERPAD_VER: 1.8.18
     ports:
       - "9001:9001"
+  chat:
+    build: chat
+    container_name: chat
+    restart: always
+    ports:
+      - "9004:9004"
