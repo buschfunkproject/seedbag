@@ -54,3 +54,9 @@ services:
     restart: always
     ports:
       - "9004:9004"
+  wssh:
+    build: wssh
+    container_name: wssh
+    restart: always
+    ports:
+      - "9005:8888"
