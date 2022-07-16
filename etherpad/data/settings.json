@@ -56,7 +56,7 @@
   "sessionNoPassword": false,
   /* if true, all css & js will be minified before sending to the client. This will improve the loading performance massivly,
        but makes it impossible to debug the javascript/css */
-  "minify": true,
+  "minify": false,
   /* How long may clients use served javascript code (in seconds)? Without versioning this
        may cause problems during deployment. Set to 0 to disable caching */
   "maxAge": 21600, // 60 * 60 * 6 = 6 hours
@@ -84,11 +84,11 @@
        If you do not uncomment this, /admin will not be available! */
   "users": {
     "admin": {
-      "password": "adminPassword",
+      "password": "emergenMAKI",
       "is_admin": true
     },
     "user": {
-      "password": "userPassword",
+      "password": "regularIsTheNewNormal",
       "is_admin": false
     }
   },
