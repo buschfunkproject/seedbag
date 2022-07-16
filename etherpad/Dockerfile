@@ -30,6 +30,7 @@ RUN apk add -U curl openssl git python3 sqlite \
   && apk del ${DEL_PKGS} \
   && rm -rf ${RM_DIRS}
 
+RUN cd /opt/etherpad/src && npm install --package-lock-only && npm audit fix ; echo 
 ADD /start_etherpad.sh /
 
 EXPOSE 9001
