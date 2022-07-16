@@ -10,7 +10,6 @@ RUN \
   adduser -Ss /bin/false -g webssh webssh && \
   chown -R webssh:webssh /code/webssh
 
-COPY chat.html /code/webssh/webssh/static/chat.html
 COPY index.html /code/webssh/webssh/templates/index.html
 
 WORKDIR /code/webssh
