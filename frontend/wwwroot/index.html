@@ -1,6 +1,10 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
+  <meta charset="UTF-8">
+  <script src="jquery.slim.min.js"></script>
+
   <style>
     /* Style the navigation menu */
     .navbar {
@@ -16,7 +20,7 @@
       background-color: white;
       text-decoration: none;
       font-size: 17px;
-      width: 14%;
+      width: 10%;
       /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
       text-align: center;
       /* If you want the text to be centered */
@@ -29,7 +33,7 @@
       color: white;
       text-decoration: none;
       font-size: 17px;
-      width: 14%;
+      width: 10%;
       /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
       text-align: center;
       /* If you want the text to be centered */
@@ -54,6 +58,7 @@
         text-align: left;
         /* If you want the text to be left-aligned on small screens */
       }
+
     }
   </style>
   <title>DorfPlatz</title>
@@ -61,15 +66,20 @@
 
 <body>
 
-  <div class="navbar">
-    <b>DorfPlatz</b>
-    <a href="/home.html" target="iframe_main" class="active">Home</a>
-    <a href="/chan/" target="iframe_main">DorfChan</a>
+  <div class="nav navbar">
+    <a href="/home.html" target="iframe_main" class="active">DorfPlatz</a>
+    <a href="/chan/" target="iframe_main">DorfBoard</a>
     <a href="/pad/" target="iframe_main">DorfPad</a>
     <a href="/md/" target="iframe_main">DorfMd</a>
     <a href="/wssh/" target="iframe_main">DorfChat</a>
   </div>
-  <iframe src="home.html" name="iframe_main" title="Main View" style="border:none; width:100%; height: 100%"></iframe>
+  <iframe src="home.html" name="iframe_main" title="Main View" style="border:none; width:100%; height: 100vh;"></iframe>
+  <script>
+    $('.navbar a').click(function () {
+      $("a.active").removeClass("active");
+      $(this).addClass("active");
+    });
+  </script>
 </body>
 
 </html>
