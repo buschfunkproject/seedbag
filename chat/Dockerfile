@@ -3,7 +3,8 @@ FROM golang:1.18-buster AS build-env
 RUN cd /root && git clone https://github.com/shazow/ssh-chat
 WORKDIR /root/ssh-chat
 
-RUN make build
+RUN git checkout 621ae1b && \
+  make build
 
 #RUN go install github.com/shazow/ssh-chat@latest
 
